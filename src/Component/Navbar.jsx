@@ -2,12 +2,10 @@ import React from "react";
 import { IoMdSearch } from "react-icons/io";
 import logo from "../assets/8014178.jpg";
 import { FaCartShopping } from "react-icons/fa6";
-import DarkMode from "./Dark_mode"; 
+import DarkMode from "./Dark_mode";
 import LowerNavbar from "./LowerNavbar";
 
 function Navbar() {
-
-
   return (
     <>
       {/*  upper navbar */}
@@ -50,12 +48,8 @@ function Navbar() {
           </div>
         </div>
       </div>
-
-
       {/* lower navbar */}
-        <LowerNavbar/>
-
-        
+      <LowerNavbar />
     </>
   );
 }

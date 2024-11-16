@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce-website",
+  "name": "React-Ecommerce",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
@@ -31,5 +32,9 @@
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14",
     "vite": "^5.4.10"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Lalitpatra98/React-Ecommmerce.git",
+  "author": "Lalitpatra98 <Lalitpatra854@gmail.com>",
+  "license": "MIT"
 }
