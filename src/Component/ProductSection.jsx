@@ -42,13 +42,13 @@ const productData = [
     color: "pink",
   },
 ];
-function ProductSection() {
+function ProductSection({heading}) {
   return (
     <>
       <div>
         <div className="container text-center mt-4">
           <p className="text-sm text-orange-600" data-aos="fade-up">Top selling product for you</p>
-          <h1 className="text-3xl font-bold  " data-aos="fade-up">Product</h1>
+          <h1 className="text-3xl font-bold  " data-aos="fade-up">{heading}</h1>
           <p className="text-xs text-gray-400 p-1  " data-aos="fade-up"  >
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
             consequuntur repellendus, accusamus odit porro rem sunt nam dicta.
@@ -64,7 +64,7 @@ function ProductSection() {
                       <img
                         src={data.img}
                         alt="Shoes"
-                        className=""
+                        className="object-scale-down h-48 w-96"
                       />
                     </figure>
                     <div className="card-body ">
