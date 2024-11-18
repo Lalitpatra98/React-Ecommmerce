@@ -45,8 +45,8 @@ const productData = [
 function ProductSection({heading}) {
   return (
     <>
-      <div>
-        <div className="container text-center mt-4">
+      <div className=" dark:bg-slate-600">
+        <div className="container text-center">
           <p className="text-sm text-orange-600" data-aos="fade-up">Top selling product for you</p>
           <h1 className="text-3xl font-bold  " data-aos="fade-up">{heading}</h1>
           <p className="text-xs text-gray-400 p-1  " data-aos="fade-up"  >
@@ -55,21 +55,21 @@ function ProductSection({heading}) {
           </p>
         </div>
         <div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center mt-4 gap-6 " data-aos="zoom-in-up">
+          <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center mt-4 " data-aos="zoom-in-up">
             {productData.map((data) => (
               <ul key={data.id}>
                 <li>
-                  <div className="card   ">
+                  <div className="card text-center">
                   <figure>
                       <img
                         src={data.img}
-                        alt="Shoes"
-                        className="object-scale-down h-48 w-96"
+                        alt="image"
+                        className="object-scale-down h-48 w-80 "
                       />
                     </figure>
-                    <div className="card-body ">
-                      <h2 className="card-title">{data.title}</h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <div className="card-body text-pretty">
+                      <h2 className=" font-bold text-2xl ">{data.title}</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi corporis ullam nesciunt modi nihil ut.</p>
                     </div>
                   
                   </div>

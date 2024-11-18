@@ -10,8 +10,8 @@ function Navbar() {
     <>
       {/*  upper navbar */}
 
-      <div className="parent dark:bg-orange-700 bg-orange-200 py-2 drop-shadow-md  transition-all duration-200">
-        <div className="child-one flex justify-between items-center mx-8 ">
+      <div className="parent dark:bg-slate-500 bg-orange-100 py-2 drop-shadow-md  transition-all duration-200">
+        <div className=" flex justify-between items-center mx-8 ">
           {/* Brand loog */}
           <div className="logo ">
             <a
@@ -25,11 +25,11 @@ function Navbar() {
 
           <div className="flex gap-5 items-center ">
             {/* Search logo */}
-            <div className="search-bar relative sm:block ">
+            <div className="   search-bar relative  ">
               <input
                 type="text"
                 placeholder="search"
-                className="w-[200px] bg-white sm:w-[200px] hover:w-[300px] transition-all duration-300 rounded-full border-gray-300 px-2 py-1 focus:outline-none focus:border-2 focus:border-orange-400"
+                className="w-[100px] bg-white sm:w-[200px] sm:hover:w-[300px] hover:w-[150px] transition-all duration-300 rounded-full border-gray-300 px-2 py-1 focus:outline-none focus:border-2 focus:border-orange-400 dark:border-none"
               />
               <IoMdSearch className=" absolute  inset-y-2  right-3    " />
             </div>
@@ -37,14 +37,17 @@ function Navbar() {
             {/* order btn */}
             <button
               onClick={() => alert("ordering are not available yet")}
-              className="bg-gradient-to-r from-orange-600 to-orange-400 py-1 px-4 rounded-full flex items-center  "
+              className="bg-gradient-to-r from-orange-600 to-orange-400 py-1 px-3 rounded-xl flex items-center dark:bg-none"
             >
-              <span>order</span>
-              <FaCartShopping className="size-4" />
+              
+              <FaCartShopping className="size-3 sm:size-5" />
             </button>
 
             {/* Darkmode */}
-            <DarkMode />
+            <div >
+                <DarkMode  />
+            </div>
+          
           </div>
         </div>
       </div>

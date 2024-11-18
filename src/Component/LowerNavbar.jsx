@@ -32,7 +32,7 @@ const menu = [
 function LowerNavbar() {
   return (
     <>
-      <div className="dark:bg-slate-900 dark:text-white">
+      <div className="dark:bg-slate-600 dark:text-white hidden sm:block ">
         <ul className="flex justify-center gap-4 py-3 border-b-2 shadow-md ">
           {menu.map((data) => (
             <li key={data.id}>

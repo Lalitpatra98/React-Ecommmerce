@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Hero />
+       <Hero />
       <ProductSection heading={"Product"} />
       <Top_Product />
       <Banner />

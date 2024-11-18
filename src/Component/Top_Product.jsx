@@ -31,10 +31,11 @@ function Top_Product() {
   return (
     <>
       {/* text container */}
-      <div className="text ml-5">
+      <div className="dark:bg-slate-600 p-6">
+         <div className="text  ">
         <p className="text-orange-500">Top rated product</p>
         <h1 className="font-bold text-2xl">Best products</h1>
-        <p className="text-gray-700">
+        <p className="text-gray-700 dark:text-gray-400">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ea
           vel praesentium!
         </p>
@@ -55,20 +56,19 @@ function Top_Product() {
             </figure>
             <div className="card-body">
               <h2 className="card-title ">
-                Shoes!
+                Product 
                 <div className="badge badge-secondary   ">NEW</div>
               </h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end ">
-                <div className="badge badge-outline">Fashion</div>
-                <div className="badge badge-outline">Products</div>
-              </div>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi non harum ipsum aut possimus enim!</p>
+             
             </div>
           </div>
         </li>
       </ul>
         ))}
       </div>
+      </div>
+     
     </>
   );
 }
