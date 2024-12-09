@@ -33,9 +33,9 @@ function Top_Product() {
       {/* text container */}
       <div className="dark:bg-slate-600 p-6">
          <div className="text  ">
-        <p className="text-orange-500">Top rated product</p>
-        <h1 className="font-bold text-2xl">Best products</h1>
-        <p className="text-gray-700 dark:text-gray-400">
+        <p className="text-orange-500 text-center">Top rated product</p>
+        <h1 className="font-bold text-2xl text-center">Best products</h1>
+        <p className="text-gray-700 dark:text-gray-400 text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ea
           vel praesentium!
         </p>
@@ -46,7 +46,7 @@ function Top_Product() {
       <ul key={data.id}>
         <li>
           
-        <div className="card  w-60 h-96 shadow-md hover:bg-slate-400 group duration-500 ">
+        <div className="card  w-60 h-96  hover:bg-slate-400 group duration-500 ">
             <figure>
               <img
                 src={data.img}
